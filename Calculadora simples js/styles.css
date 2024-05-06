@@ -1,0 +1,47 @@
+body {
+    background-color: burlywood;
+}
+
+div {
+    position: absolute;
+    transform: translate(-50%, -50%); 
+    top: 50%;
+    left: 50%;
+}
+
+
+#number-one {
+    margin-left: 80px;
+    
+    height: 30px;
+}
+
+#number-two {
+    margin-left: 80px;
+    
+    height: 30px;
+}
+
+button {
+    margin-top: 10px;
+    margin-left: 70px;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    border-radius: 6px;
+    outline: none;
+}
+
+span {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+h2 {
+    margin-left: 60px;
+}
+
+.inputy  {
+    margin: 10px;
+}

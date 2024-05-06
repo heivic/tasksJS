@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+div {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+    border: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    display: flex; /* Usando flexbox */
+    justify-content: center; /* Centralizando horizontalmente */
+    align-items: center; /* Centralizando verticalmente */
+    margin-top: 30px;
+}
+
+a:hover {
+    color: #007bff;
+}
+
+p {
+    margin: 0;
+}
+
+.bi-github {
+    height: 70px;
+    width: 50px;
+}
+
+.bi-github:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    div {
+        width: 90%;
+    }
+}
